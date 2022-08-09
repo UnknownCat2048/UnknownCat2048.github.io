@@ -1,10 +1,10 @@
 {
 	"Version": 3,
-	"Model": "rena.moc3",
+	"Model": "rena.moc",
 	"Textures": [
 		"rena.4096/texture_00.png"
 	],
-	"Physics": "rena.physics3.json",
+	"Physics": "rena.physics.json",
 	"DisplayInfo": "rena.cdi3.json",
 	"Groups": [
 		{
