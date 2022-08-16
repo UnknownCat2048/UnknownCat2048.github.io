@@ -26,7 +26,7 @@
 
   
 
-  <title>Hexo+GitPage个人博客搭建遇到的问题 | UnknownCat2048`s Blog</title>
+  <title>Hexo+GitHub个人博客搭建遇到的问题 | UnknownCat2048`s Blog</title>
 
   
 
@@ -98,7 +98,7 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">Hexo+GitPage个人博客搭建遇到的问题</h1>
+          <h1 class="title-wrap">Hexo+GitHub个人博客搭建遇到的问题</h1>
           <h2 class="title-sub-wrap">
             <strong>UnknownCat2048</strong>
             <span>发布于</span>
@@ -119,9 +119,9 @@
   
     <li><a href="/tags/GitHub/">🏷️ GitHub</a></li>
   
-    <li><a href="/tags/GitPage/">🏷️ GitPage</a></li>
-  
     <li><a href="/tags/Blog/">🏷️ Blog</a></li>
+  
+    <li><a href="/tags/GitHub-Pages/">🏷️ GitHub Pages</a></li>
   
 </ul>
         </div>
@@ -145,7 +145,30 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <h2 id="GitHub与GitPage相关"><a href="#GitHub与GitPage相关" class="headerlink" title="GitHub与GitPage相关"></a>GitHub与GitPage相关</h2>
+        <h2 id="GitHub与GitHub-Pages相关"><a href="#GitHub与GitHub-Pages相关" class="headerlink" title="GitHub与GitHub Pages相关"></a>GitHub与GitHub Pages相关</h2><ul>
+<li><p>Github仓库的名称可以是<strong>用户名.github.io</strong>、<strong>用户名</strong>或其他任何名称，但是不同的名称在网站地址上会有所不同。具体关系如表格所示：</p>
+<table>
+<thead>
+<tr>
+<th align="center">仓库名称</th>
+<th align="center">对应的网站地址</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">用户名.github.io</td>
+<td align="center">https:&#x2F;&#x2F;用户名.github.io</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<p>|      用户名      |  https:&#x2F;&#x2F;用户名.github.io&#x2F;用户名  |<br>    |     其他名称     | https:&#x2F;&#x2F;用户名.github.io&#x2F;其他名称 |</p>
+<ul>
+<li>GitHub仓库不可以为私有，否则GitHub Pages将不会适用</li>
+</ul>
+<h2 id="Git相关"><a href="#Git相关" class="headerlink" title="Git相关"></a>Git相关</h2><h3 id="SSH验证失败"><a href="#SSH验证失败" class="headerlink" title="SSH验证失败"></a>SSH验证失败</h3><p>解决办法为更改网络认证设置：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config http.sslVerify &quot;false&quot;</span><br></pre></td></tr></table></figure>
+
+<h3 id="port22端口拒绝连接"><a href="#port22端口拒绝连接" class="headerlink" title="port22端口拒绝连接"></a>port22端口拒绝连接</h3>
       </section>
 
       
@@ -230,7 +253,7 @@
     <span>TOC</span>
   </div>
   <div class="widget-body">
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#GitHub%E4%B8%8EGitPage%E7%9B%B8%E5%85%B3"><span class="toc-number">1.</span> <span class="toc-text">GitHub与GitPage相关</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#GitHub%E4%B8%8EGitHub-Pages%E7%9B%B8%E5%85%B3"><span class="toc-number">1.</span> <span class="toc-text">GitHub与GitHub Pages相关</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Git%E7%9B%B8%E5%85%B3"><span class="toc-number">2.</span> <span class="toc-text">Git相关</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SSH%E9%AA%8C%E8%AF%81%E5%A4%B1%E8%B4%A5"><span class="toc-number">2.1.</span> <span class="toc-text">SSH验证失败</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#port22%E7%AB%AF%E5%8F%A3%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5"><span class="toc-number">2.2.</span> <span class="toc-text">port22端口拒绝连接</span></a></li></ol></li></ol>
   </div>
 </section>
 
@@ -278,7 +301,7 @@
   </div>
   <div class="widget-body">
     <div class="tags-cloud">
-      <a href="/tags/Blog/" style="font-size: 10px;" class="tags-cloud-0">Blog</a> <a href="/tags/Git/" style="font-size: 10px;" class="tags-cloud-0">Git</a> <a href="/tags/GitHub/" style="font-size: 10px;" class="tags-cloud-0">GitHub</a> <a href="/tags/GitPage/" style="font-size: 10px;" class="tags-cloud-0">GitPage</a> <a href="/tags/Hexo/" style="font-size: 10px;" class="tags-cloud-0">Hexo</a>
+      <a href="/tags/Blog/" style="font-size: 10px;" class="tags-cloud-0">Blog</a> <a href="/tags/Git/" style="font-size: 10px;" class="tags-cloud-0">Git</a> <a href="/tags/GitHub/" style="font-size: 10px;" class="tags-cloud-0">GitHub</a> <a href="/tags/GitHub-Pages/" style="font-size: 10px;" class="tags-cloud-0">GitHub Pages</a> <a href="/tags/Hexo/" style="font-size: 10px;" class="tags-cloud-0">Hexo</a>
     </div>
   </div>
 </section>
