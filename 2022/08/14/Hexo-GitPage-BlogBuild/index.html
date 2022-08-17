@@ -174,7 +174,11 @@
 <h2 id="Git相关"><a href="#Git相关" class="headerlink" title="Git相关"></a>Git相关</h2><h3 id="SSH验证失败"><a href="#SSH验证失败" class="headerlink" title="SSH验证失败"></a>SSH验证失败</h3><p>解决办法为更改网络认证设置：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config http.sslVerify &quot;false&quot;</span><br></pre></td></tr></table></figure>
 
-<h3 id="port22端口拒绝连接"><a href="#port22端口拒绝连接" class="headerlink" title="port22端口拒绝连接"></a>port22端口拒绝连接</h3>
+<h3 id="port22端口拒绝连接"><a href="#port22端口拒绝连接" class="headerlink" title="port22端口拒绝连接"></a>port22端口拒绝连接</h3><p>在存放ssh的文件夹里修改<strong>config</strong>文件（如果没有就新建）</p>
+<p>添加以下内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">Hostname ssh.github.com</span><br><span class="line">Port 443</span><br></pre></td></tr></table></figure>
+
+
       </section>
 
       
